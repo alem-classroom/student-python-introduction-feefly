@@ -1,1 +1,4 @@
-hello_world = input("Hello World!")
+def hello_world():
+    return "Hello World!"
+str = hello_world()
+print(str)
